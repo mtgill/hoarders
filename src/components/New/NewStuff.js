@@ -5,7 +5,7 @@ import './NewStuff.scss';
 class NewScat extends React.Component {
   render() {
     return (
-      <div className="NewScat">
+      <div className="NewStuff">
         <h2>New!</h2>
     </div>
     );
