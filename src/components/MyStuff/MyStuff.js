@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import './MyStuff.scss';
 
-class NewScat extends React.Component {
+class NewStuff extends React.Component {
   editEvent = (e) => {
     e.preventDefault();
     const orderId = '12345';
@@ -12,7 +12,7 @@ class NewScat extends React.Component {
   };
 
   render() {
-    const singleLink = '/scat/12345';
+    const singleLink = '/single/12345';
     return (
       <div className="MyStuff">
         <h2>My Stuff</h2>
@@ -23,4 +23,4 @@ class NewScat extends React.Component {
   }
 }
 
-export default NewScat;
+export default NewStuff;

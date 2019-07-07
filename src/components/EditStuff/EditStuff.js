@@ -2,11 +2,11 @@ import React from 'react';
 
 import './EditStuff.scss';
 
-class EditScat extends React.Component {
+class EditStuff extends React.Component {
   render() {
     const editId = this.props.match.params.id;
     return (
-      <div className="EditSStuff">
+      <div className="EditStuff">
         <h2>EditStuff</h2>
         <h3>The editId is {editId}</h3>
     </div>
@@ -14,4 +14,4 @@ class EditScat extends React.Component {
   }
 }
 
-export default EditScat;
+export default EditStuff;
